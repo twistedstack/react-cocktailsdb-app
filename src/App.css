@@ -1,0 +1,54 @@
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  gap:60px
+}
+.logo {
+  text-decoration: none;
+  color: #000;
+  font-size: 50px;
+}
+.card {
+
+}
+
+.card-text{
+  font-size: 50px;
+}
+
+.card{
+  width:300px;
+
+  margin:10px
+}
+.cocktail-section {
+  margin:0 auto;
+  width:80%;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
