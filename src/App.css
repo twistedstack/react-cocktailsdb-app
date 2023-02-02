@@ -1,10 +1,11 @@
-
 html {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -14,7 +15,7 @@ body {
 }
 
 .menu {
-  gap:60px
+  gap: 60px;
 }
 .logo {
   text-decoration: none;
@@ -22,33 +23,46 @@ body {
   font-size: 50px;
 }
 .card {
-
 }
 
-.card-text{
+.card-text {
   font-size: 50px;
 }
 
-.card{
-  width:300px;
-
-  margin:10px
+.card {
+  width: 300px;
+  margin: 10px;
 }
 .cocktail-section {
-  margin:0 auto;
-  width:80%;
+  padding-top:20px;
+  margin: 0 auto;
+  width: 88%;
+}
+.cocktail-section .container {
+  margin-top:50px
+}
+.section-title{
+  margin:20px 0 10px 0;
+}
+.drink-data{
+  font-weight: bold
 }
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+@media (min-width: 1400px) {
+}
