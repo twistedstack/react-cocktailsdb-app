@@ -1,2 +1,2 @@
-# react-cocktailsdb-app
- 
+# Reactive Cocktails
+ > React and CocktailsDB API
